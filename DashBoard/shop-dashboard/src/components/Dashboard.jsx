@@ -1,12 +1,17 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import StatsGrid from "./StatsGrid";
+import TransactionChart from "./TransactionChart";
 
 
 
 export default function () {
     return (
-        <div>
-<p>  This is dashboard </p> <Link to="/products" className="underline" >Go to products</Link>
+        <div className="flex flex-col gap-4">
+
+
+    <StatsGrid />
+    <TransactionChart />
         </div>
     )
 }
