@@ -3,6 +3,9 @@ import React from "react";
 import StatsGrid from "./StatsGrid";
 import TransactionChart from "./TransactionChart";
 import BuyerProfile from "./BuyerProfile";
+import Orders from "./Orders";
+import PopularProducts from "./PopularProducts";
+
 
 
 
@@ -16,6 +19,11 @@ export default function () {
           <BuyerProfile />
           </div>
          
+              <div className="flex flex-row gap-4 w-full">
+                <Orders />
+                <PopularProducts />
+              </div>
+
         </div>
     )
 }
