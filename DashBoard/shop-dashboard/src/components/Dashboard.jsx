@@ -3,7 +3,7 @@ import React from "react";
 import StatsGrid from "./StatsGrid";
 import TransactionChart from "./TransactionChart";
 import BuyerProfile from "./BuyerProfile";
-import Orders from "./Orders";
+import Orders from "./RecentOrders";
 import PopularProducts from "./PopularProducts";
 
 
