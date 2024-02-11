@@ -1,21 +1,4 @@
 
-
-// import React from "react";
-
-// function PopularProducts(){
-
-//     return(
-//         <div className="bg-white px-4 pt-3 pb-4 rounded-sm border border-gray-200 w-[16rem]">
-//             <strong>Popular Products</strong>
-          
-//         </div>
-//     )
-// }
-
-// export default PopularProducts
-
-
-
 import classNames from 'classnames'
 import React from 'react'
 import { Link } from 'react-router-dom'

@@ -6,12 +6,11 @@
 
 @layer base {
 	html {
-		/* font-family: 'Inter', sans-serif; */
+		
         font-family: 'Mitr', sans-serif;
 		line-height: 1.3;
 	}
-	table {
-	}
+	
 	th,
 	td {
 		@apply py-3 px-2.5 text-sm text-left border-y border-gray-200;
